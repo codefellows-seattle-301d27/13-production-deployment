@@ -19,6 +19,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
     1. Be sure to include how much time you spent on it, and who you worked with.
     1. Briefly reflect on and summarize your process.
 1. When you create the PR, it will have a unique URL. Copy this link, share with your partner, and paste it into the assignment submission form in Canvas. Both the driver and the navigator will submit the same PR link.
+1. In the comments of your submmission on Canvas, copy and paste the link to your site, deployed on Heroku.
 
 
 ## Learning Objectives
@@ -28,7 +29,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
 
 ---
 
-## Resources  
+## Resources
 
 - [Heroku: Getting Started with Node](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 - [Deploying a Simple Blog to Heroku](https://howtonode.org/deploy-blog-to-heroku)
@@ -45,7 +46,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
 
 ---
 
-## Feature Tasks  
+## Feature Tasks
 
 1. As a site owner, I want my site running on a robust hosting platform, so that I don't have to hire a sysadmin.
  - Create a new Heroku app for deployment.
@@ -58,13 +59,13 @@ When you are finished with lab, follow these steps to submit your work. Create o
  - DO NOT create your Heroku app with a default name. If you do accidentally, rename it. Or blow it away, and start again.
  - Link to your live site in your README, for whichever repo you deploy.
 
-#### Stretch Goals  
+#### Stretch Goals
 
  1. As a site owner, I want [blog.my-own-domain-name.io] hooked up to my Heroku app, so that I don't have to explain to people how to spell "myblog.herokuapp.com" over the phone.
 
 ---
 
-## Rubric  
+## Rubric
 
 Criteria | Pts
 ---|---
