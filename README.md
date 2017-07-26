@@ -2,6 +2,8 @@
 =======
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
+Deployed Site: https://kilovot-alana-james.herokuapp.com/about
+
 Ready to share what you've made with the world? Yes!
 
 Then you need to push your code to a web server accessible to the whole Internet. This is your "production environment".
