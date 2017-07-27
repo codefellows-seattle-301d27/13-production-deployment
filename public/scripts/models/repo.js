@@ -12,7 +12,7 @@ var app = app || {};
     //       client side of our app, our new proxyGitHub function will be handling the token using our
     //       new environment variable!
     $.get({
-      url: `https://api.github.com/${request.params[0]}`
+      url: 'https://api.github.com/orgs/codefellows-seattle-301d27/repos'
     })
     .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
     .then(callback);
