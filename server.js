@@ -9,8 +9,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 // const conString = 'postgres://USERNAME:PASSWORD@HOST:PORT';
 //const conString = ''; // DONE: Don't forget to set your own conString
-let conString = process.env.CONNECTION_STRING;
-if (!conString) conString = `postgres://postgres:${process.env.PG_PASSWORD}@localhost:5432/kilovolt`;
+let conString = process.env.CONNECTION_STRING || `postgres://postgres:${process.env.PG_PASSWORD}@localhost:5432/kilovolt`;
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
