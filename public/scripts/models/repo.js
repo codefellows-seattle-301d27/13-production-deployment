@@ -13,7 +13,7 @@ var app = app || {};
     //       new environment variable!
     // Estimated 15 min || Actual 5 min
     $.get({
-      url: '/github/user/repos'
+      url: 'http://localhost3000/github/user/repos'
     })
     .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
     .then(callback);
