@@ -74,4 +74,5 @@ Uses idiomatic code style | 3
 Follows proper Git workflow | 1
 **Total** | **10**
 ===============================================================
-conString
+## Deployment url
+https://kilovolt-lab13.herokuapp.com/
