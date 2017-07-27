@@ -8,7 +8,7 @@ const requestProxy = require('express-request-proxy'); // REVIEW: We've added a 
 const PORT = process.env.PORT || 3000;
 const app = express();
 // const conString = 'postgres://USERNAME:PASSWORD@HOST:PORT';
-const conString = `postgres://postgres:${pgPassword}@localhost:5432`;
+const conString = process.env.DATABASE_URL || `postgres://postgres:${pgPassword}@localhost:5432`;
 // DONE: Don't forget to set your own conString
 // est: 1min act: 10min
 const client = new pg.Client(conString);
