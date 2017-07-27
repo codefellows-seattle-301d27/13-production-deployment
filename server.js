@@ -7,9 +7,8 @@ const bodyParser = require('body-parser');
 const requestProxy = require('express-request-proxy'); // REVIEW: We've added a new package here to our requirements, as well as in the package.json
 const PORT = process.env.PORT || 3000;
 const app = express();
-let conString = process.env.conString || 'postgres://jp:1234@localhost:5432/jp';
 // const conString = 'postgres://USERNAME:PASSWORD@HOST:PORT';
-// const conString = `postgres://postgres:${process.env.PG_PASSWORD}@localhost:5432/kilovolt`; // DONE TODO: Don't forget to set your own conString
+const conString = `postgres://jp:${process.env.PG_PASSWORD}@localhost:5432/jp`; // DONE TODO: Don't forget to set your own conString
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
