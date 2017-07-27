@@ -16,17 +16,26 @@ var app = app || {};
     //   type: 'GET',
     //   // headers: {'Authorization': `token ${githubToken}`}
     // })
+  //
+  //   $.get('/github/*', function(request, response) {
+  //     (requestProxy({
+  //       url: `https://api.github.com/${request.params[0]}`,
+  //       // headers: {
+  //       //   Authorization: `token ${githubToken}`
+  //       // }
+  //     }))(request, response)
+  //   })
+  //     .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
+  //     .then(callback);
+  // };
 
-    $.get('/github/*', function(request, response) {
-      (requestProxy({
-        url: `https://api.github.com/${request.params[0]}`,
-        // headers: {
-        //   Authorization: `token ${githubToken}`
-        // }
-      }))(request, response)
-    })
-      .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
-      .then(callback);
+  $.get({
+    url: `https://api.github.com/user/repos`,
+    // type: 'GET',
+    // headers: {'Authorization': `token ${githubToken}`
+  })
+  .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
+  .then(callback);
   };
 
   repos.with = attr => repos.all.filter(repo => repo[attr]);
