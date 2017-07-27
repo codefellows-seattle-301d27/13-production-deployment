@@ -24,7 +24,7 @@ var app = app || {};
   };
 
   Article.fetchAll = callback => {
-    $.get('/articles')
+    $.get('articles')
     .then(
       results => {
         Article.loadAll(results);
