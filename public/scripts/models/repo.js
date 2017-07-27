@@ -12,7 +12,7 @@ var app = app || {};
     //       client side of our app, our new proxyGitHub function will be handling the token using our
     //       new environment variable!
     $.get({
-      url: `https://localhost:3000/user/repos`
+      url: `https://localhost:3000/users/dbiehle/repos`
       // headers: {'Authorization': `token ${githubToken}`}
     })
     .then(data => repos.all = data, err => console.error(err)) // es6 syntax arrow functions
