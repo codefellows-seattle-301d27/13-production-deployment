@@ -17,7 +17,7 @@ var app = app || {};
     //   // headers: {'Authorization': `token ${githubToken}`}
     // })
 
-    $.get('/github', function(request, response) {
+    $.get('/github/*', function(request, response) {
       (requestProxy({
         url: `https://api.github.com/${request.params[0]}`,
         // headers: {
