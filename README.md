@@ -73,3 +73,10 @@ Meets all Assignment Reqs | 6
 Uses idiomatic code style | 3
 Follows proper Git workflow | 1
 **Total** | **10**
+
+-------------------------------------------------
+Link to our deployed website:
+
+https://class13-lab-rami-don.herokuapp.com/
+
+-------------------------------------------------
