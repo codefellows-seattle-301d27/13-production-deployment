@@ -30,7 +30,7 @@ var app = app || {};
   // };
 
   $.get({
-    url: `https://api.github.com/user/repos`,
+    url: `/github/user/repos`,
     // type: 'GET',
     // headers: {'Authorization': `token ${githubToken}`
   })
