@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 // const conString = 'postgres://USERNAME:PASSWORD@HOST:PORT';
 // const conString = 'postgres://localhost:5432';
-// const conString = `postgres://postgres:${process.env.PG_PASSWORD}@localhost:5432/kilovolt`;
+
 // DONE: Don't forget to set your own conString
 // estimate 5 min, actual 2 min
 const conString = process.env.DATABASE_URL || `postgres://postgres:${process.env.PG_PASSWORD}@localhost:5432/kilovolt`;
