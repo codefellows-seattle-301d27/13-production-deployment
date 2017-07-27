@@ -4,6 +4,9 @@
 
 Ready to share what you've made with the world? Yes!
 
+## THIS IS OUR DEPLOYED PAGE
+https://kilovolt-blog-jt.herokuapp.com/
+
 Then you need to push your code to a web server accessible to the whole Internet. This is your "production environment".
 
 We'll be using Heroku as our production server. Heroku is a "Platform as a Service": your code is plugged in to pre-configured servers, which are started up for the world to access.
