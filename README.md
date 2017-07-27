@@ -3,6 +3,7 @@
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
 Ready to share what you've made with the world? Yes!
+Our live site: https://mega-volt-child.herokuapp.com/
 
 Then you need to push your code to a web server accessible to the whole Internet. This is your "production environment".
 
